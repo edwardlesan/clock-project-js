@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Exo&family=Michroma&family=Montserrat:wght@200;300;400;700&family=Nunito:wght@200;300;400;500;600;700&family=Space+Grotesk&display=swap');
+
+:root {
+    --main-color: #1f1f21;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+
+body {
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.clock {
+    background: -webkit-linear-gradient(#7FFF00, #006400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
